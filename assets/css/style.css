@@ -22,19 +22,16 @@ header{
 }
 
 header .wrapper{
-   margin-left: 15%; 
+   margin-left: 10%; 
 }
 
-.last-news time {
-   display: block;
-   font-size: 14px;
-   margin-bottom: 0px;
+a {
+   text-decoration: none;
+   color: #000;
 }
 
-article {
-   border-bottom: 1px solid #aeaeae;
-   padding-bottom: 60px;
-   margin-bottom: 26px;
+.caps {
+   text-transform: uppercase;
 }
 
 .nav {
@@ -85,7 +82,7 @@ article {
 }
 
 .social-nets {
-   margin-top: 41px;
+   margin-top: 33px;
 }
 
 .social-networks,
@@ -122,7 +119,7 @@ article {
    max-width: 642px;
    padding: 30px;
    margin-top: -143px;
-   margin-left: 15%;
+   margin-left: 10%;
    background-color: #fff;
    overflow: hidden;
 }
@@ -130,6 +127,16 @@ article {
 .news p {
    font-size: 18px;
    line-height: 1.5; 
+}
+
+.news article {
+   padding-bottom: 60px;
+   margin-bottom: 26px;
+}
+
+.news article,
+.hot-news h4 {
+   border-bottom: 1px solid #949494;
 }
 
 .latest-article img {
@@ -144,6 +151,12 @@ article {
 .latest-article > *,
 .last-news > * {
    margin-bottom: 20px;
+}
+
+.last-news time {
+   display: block;
+   font-size: 14px;
+   margin-bottom: 0px;
 }
 
 .last-news img{
@@ -185,23 +198,74 @@ article {
    color: #fff;
 }
 
-aside {
+.sidebar {
    float: left;
    margin-left: 20px;
-   margin-top: 60px;
+   margin-top: 40px;
+   width: 353px;
 }
 
-.suscribe h3 {
+.sidebar h3 {
    color: #00a0aa;
    border-bottom:2px solid;
+   font-size: 20px;
 }
 
-.suscribe p {
-   margin: 20px 0;
+.sidebar p {
+   margin-bottom: 20px;
 }
 
-.caps {
-   text-transform: uppercase;
+.sidebar h3 {
+   color: #00a0aa;
+   border-bottom: 3px solid;
+   margin: 40px 0 20px 0;
+   font-size: 20px;
+}
+
+.sidebar h4 {
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+.hot-news h4 {
+   padding-bottom: 15px;
+}
+
+.external-news article {
+   border-bottom: 1px solid #939393;
+}
+
+.ads {
+   padding: 40px 45px 40px 45px;
+}
+
+.ads p {
+   margin-bottom: 10px;
+}
+
+.ads img {
+   height: 251px;
+   width: 251px;
+   background-color: #d4d4d4;
+}
+
+.by {
+   color: #ff7b00;
+}
+
+input[type="text"] {
+   background-color: #d4d4d4;
+   border: none;
+   padding: 13px 43px 13px 13px;
+   color: #848484;
+   margin-right: 10px;
+}
+
+input[type="submit"] {
+   background-color: #2aa9e0;
+   border: none;
+   padding: 13px;
+   color: #fff;
 }
 
 footer {
