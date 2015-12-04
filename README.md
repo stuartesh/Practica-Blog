@@ -1,2 +1,2 @@
 # Practica-Blog
-Diseño 
+# Diseño resposive
